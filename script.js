@@ -1,19 +1,19 @@
 // // VERY EASY
-// let vEasy1 = 10;
-// let vEasy2 = 5;
-// let difference = vEasy1 - vEasy2;
-// console.log(`The difference between ${vEasy1} and ${vEasy2} is ${difference}.`)
+let vEasy1 = 10;
+let vEasy2 = 5;
+let difference = vEasy1 - vEasy2;
+console.log(`The difference between ${vEasy1} and ${vEasy2} is ${difference}.`)
 
 
 
 // // EASY
-// let name1 = prompt("What's the first name?");
-// let length1 = name1.length
-// let name2 = prompt("What's the second name?");
-// let length2 = name2.length
-// let nDifference = length1 - length2;
+let name1 = prompt("What's the first name?");
+let length1 = name1.length
+let name2 = prompt("What's the second name?");
+let length2 = name2.length
+let nDifference = length1 - length2;
 
-// console.log(`${name1} is longer than ${name2} by ${nDifference} characters`);
+console.log(`${name1} is longer than ${name2} by ${nDifference} characters`);
 
 // console.log(length1);
 // console.log(length2);
@@ -28,39 +28,39 @@
 // }
 
 //MEDIUM
-// let type = prompt("Type your message")
+let type = prompt("Type your message")
 
-// if(type.toUpperCase() === type){
-//     console.log("STOP YELLING")
-// } else if(type.toLowerCase() === type){
-//     console.log("speak up")
-// } else{
-//     console.log("speaking normally")
-// };
+if(type.toUpperCase() === type){
+    console.log("STOP YELLING")
+} else if(type.toLowerCase() === type){
+    console.log("speak up")
+} else{
+    console.log("speaking normally")
+};
 
 // HARD
-// let x = parseInt(prompt("What's the first number?"));
-// let y = parseInt(prompt("what's the second number?"));
+let x = parseInt(prompt("What's the first number?"));
+let y = parseInt(prompt("what's the second number?"));
 
-// function add(){
-//     console.log(x + y);
-// }
-// add();
+function add(){
+    console.log(x + y);
+}
+add();
 
-// function subtract(){
-//     console.log(x - y);
-// }
-// subtract();
+function subtract(){
+    console.log(x - y);
+}
+subtract();
 
-// function multiply(){
-//     console.log(x * y);
-// }
-// multiply();
+function multiply(){
+    console.log(x * y);
+}
+multiply();
 
-// function divide(){
-//     console.log(x / y);
-// }
-// divide();
+function divide(){
+    console.log(x / y);
+}
+divide();
 
 //VERY HARD
 let num1 = parseInt(prompt("What's the first number?"))
